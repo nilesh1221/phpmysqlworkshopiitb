@@ -1,0 +1,44 @@
+<html>
+  <head>
+    <title>LOGIN</title>
+    <style>
+      div{
+        text-align: center;
+        background-color: #ffc857;
+        padding: 10px;
+        border-radius: 10px;
+        color: black;
+        zoom: 2.5;
+        -moz-transform: scale(2.0);
+        width: 50%;
+        margin: 0;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+      }
+    </style>
+  </head>
+  <body style="background-color: #c5283d;  font-family: Open, sans-serif;color: black;text-align: center;">
+    <div id='div'>
+      <form action='login.php' method='POST' style="text-align: center; margin: auto;">
+        <table style="margin: auto;">
+          <tr>
+            <th colspan='2'>LOGIN</th>
+          </tr>
+          <tr>
+            <td>Roll No.: </td>
+            <td><input type='text' name='rollno' required style="border-radius: 5px;"></td>
+          </tr>
+          <tr>
+            <td>Password: </td>
+            <td><input type='password' name='password' required style="border-radius: 5px;"></td>
+          </tr>
+          <tr>
+            <td><input type='submit' name='login' value='Login' style="border-radius: 10px;"></td>
+          </tr>
+        </table>
+      </form>
+    </div>
+  </body>
+</html>
